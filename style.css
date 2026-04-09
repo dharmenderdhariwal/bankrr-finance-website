@@ -1,0 +1,36 @@
+:root {
+  --black: #0a0a0a;
+  --white: #f5f3ef;
+  --gold: #c9a84c;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--black);
+  color: var(--white);
+}
+
+/* Example */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.btn-gold {
+  background: var(--gold);
+  color: black;
+}
